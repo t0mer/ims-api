@@ -1,4 +1,4 @@
-fastapi==
+fastapi
 uvicorn[standard]
-weatheril==1.2.5
-pydantic==2.5.0
+weatheril
+pydantic
