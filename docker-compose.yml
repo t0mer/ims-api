@@ -2,8 +2,8 @@ version: '3.8'
 
 services:
   ims-api:
-    build: .
-    ports:
+    image: techblog/ims-api
+    container_name: ims-api
       - "8000:8000"
     environment:
       - PYTHONPATH=/app
